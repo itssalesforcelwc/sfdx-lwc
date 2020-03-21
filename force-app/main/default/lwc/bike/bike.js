@@ -1,3 +1,5 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, track } from 'lwc';
 
-export default class Bike extends LightningElement {}
+export default class Bike extends LightningElement {
+    @track recordid;
+}
